@@ -67,6 +67,26 @@ def privacy():
     return render_template("/privacy.html")
 
 
+@app.route("/form_login.html", methods=["GET"])
+def login():
+    return render_template("/form_login.html")
+
+
+@app.route("/form_signup.html", methods=["GET"])
+def signup():
+    return render_template("/form_signup.html")
+
+
+@app.route("/form_devlog.html", methods=["GET"])
+def cosup():
+    return render_template("/form_devlog.html")
+
+
+@app.route("/devlogs.html", methods=["GET"])
+def tanup():
+    return render_template("/devlogs.html")
+
+
 # example CSRF protected form
 @app.route("/form.html", methods=["POST", "GET"])
 def form():
