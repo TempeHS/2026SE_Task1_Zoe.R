@@ -67,35 +67,39 @@ def privacy():
     return render_template("/privacy.html")
 
 
-@app.route("/form_login.html", methods=["GET"])
+@app.route("/form_login.html", methods=["POST", "GET"])
 def login():
-    return render_template("/form_login.html")
+    if request.method == "POST":
+        email = request.form["email"]
+        text = request.form["text"]
+        return render_template("/form_login.html")
+    else:
+        return render_template("/form_login.html")
 
 
-@app.route("/form_signup.html", methods=["GET"])
+@app.route("/form_signup.html", methods=["POST", "GET"])
 def signup():
-    return render_template("/form_signup.html")
+    if request.method == "POST":
+        email = request.form["email"]
+        text = request.form["text"]
+        return render_template("/form_signup.html")
+    else:
+        return render_template("/form_signup.html")
 
 
-@app.route("/form_devlog.html", methods=["GET"])
+@app.route("/form_devlog.html", methods=["POST", "GET"])
 def cosup():
-    return render_template("/form_devlog.html")
+    if request.method == "POST":
+        email = request.form["email"]
+        text = request.form["text"]
+        return render_template("/form_devlog.html")
+    else:
+        return render_template("/form_devlog.html")
 
 
 @app.route("/devlogs.html", methods=["GET"])
 def tanup():
     return render_template("/devlogs.html")
-
-
-# example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/form.html")
-    else:
-        return render_template("/form.html")
 
 
 # Endpoint for logging CSP violations
