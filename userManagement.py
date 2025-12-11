@@ -12,19 +12,20 @@ cursor.execute(
     "INSERT INTO user_data(username, password) VALUES ('JohnSoftwareEngineering', 'SecurePassword_1225')"
 )
 
-user = input("user: ")
-password = input("password: ")
-
 cursor.execute(
-    "SELECT * FROM user_data WHERE username = ? AND password = ?",
-    (user, password),
+    "INSERT INTO user_data(username, password) VALUES ('JaneSoftwareEngineering', 'SecurePassword_1225')"
 )
-SensitiveInformation = cursor.fetchall()
+
+test = input("yes ")
+
+cursor.execute(f"SELECT * FROM user_data WHERE password = '{test}'")
+SensitiveInformation = cursor.fetchmany(1)
 for i in SensitiveInformation:
     print(i)
 
 connection.close()
 
+# https://www.youtube.com/watch?v=lK-P5kOiQ6Y
 
 ### example
 # def getUsers():
