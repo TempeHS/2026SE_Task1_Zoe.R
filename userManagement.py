@@ -15,13 +15,28 @@ cursor.execute(
 cursor.execute(
     "INSERT INTO user_data(username, password) VALUES ('JaneSoftwareEngineering', 'SecurePassword_1225')"
 )
-
+test2 = input("no ")
 test = input("yes ")
 
-cursor.execute(f"SELECT * FROM user_data WHERE password = '{test}'")
-SensitiveInformation = cursor.fetchmany(1)
-for i in SensitiveInformation:
-    print(i)
+validatedtest = 
+
+for i in test:
+    if i == "'":
+        print("nuh uh")
+    else:
+        validatedtest = validatedtest + i
+
+cursor.execute(
+    f"SELECT * FROM user_data WHERE username = '{test2}' AND password = '{test}'"
+)
+SensitiveInformation = cursor.fetchall()
+if SensitiveInformation == "":
+    print("username or password is incorrect.")
+else:
+    print("you have been logged in!")
+
+# if username and password combination brings results from sql database, log user in
+# if not, say incorrect username or password
 
 connection.close()
 
