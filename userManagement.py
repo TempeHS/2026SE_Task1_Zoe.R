@@ -16,14 +16,16 @@ def loginput(user, pwd):
     connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
     cursor = connection.cursor()
     cursor.execute("SELECT password FROM user_data WHERE username = ?", (user,))
-    details = cursor.fetchall()
+    details = cursor.fetchone()
     connection.close()
     if details == []:
         print("login failed!")
         return False
     else:
         hashedinput = pwd.encode("utf-8")
-        return bcrypt.checkpw(hashedinput, details[0])
+        passwordoutput = details[0]
+        print(passwordoutput)
+        return bcrypt.checkpw(hashedinput, passwordoutput)
 
 
 # adds user
