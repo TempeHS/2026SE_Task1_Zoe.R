@@ -28,17 +28,20 @@ def loginput(user, pwd):
 
 # adds user
 def signupinput(user, pwd):
-    connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
-    cursor = connection.cursor()
-    bytes = pwd.encode("utf-8")
-    salt = bcrypt.gensalt()
-    hash = bcrypt.hashpw(bytes, salt)
-    cursor.execute(
-        "INSERT INTO user_data (username,password) VALUES (?,?)", (user, hash)
-    )
-    connection.commit()
-    connection.close()
-    return True
+    try:
+        connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
+        cursor = connection.cursor()
+        bytes = pwd.encode("utf-8")
+        salt = bcrypt.gensalt()
+        hash = bcrypt.hashpw(bytes, salt)
+        cursor.execute(
+            "INSERT INTO user_data (username,password) VALUES (?,?)", (user, hash)
+        )
+        connection.commit()
+        connection.close()
+        return True
+    except sql.IntegrityError:
+        return False
 
 
 # TEST CODE FOR THE INPUT SYSTEM - NO HASHING NO INPUT VALIDATION WE DIE LIKE
