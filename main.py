@@ -3,6 +3,7 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask import jsonify
+from flask import session
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
@@ -70,19 +71,37 @@ def privacy():
 @app.route("/form_login.html", methods=["POST", "GET"])
 def login():
     if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
+        user = request.form.get("user", "").strip()
+        pwd = request.form.get("password", "")
+        if dbHandler.loginput(user, pwd):
+            session["login"] = True
+            session["user"] = user
+            return redirect("/index.html")
         return render_template("/form_login.html")
     else:
-        return render_template("/form_login.html")
+        return render_template(
+            "/form_login.html", error="Username or password is incorrect"
+        )
+
+
+@app.route("/logout.html", methods=["GET"])
+def logout():
+    session.clear()
+    return redirect("/form_login.html")
 
 
 @app.route("/form_signup.html", methods=["POST", "GET"])
 def signup():
     if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/form_signup.html")
+        user = request.form.get("user", "").strip()
+        pwd = request.form.get("password", "")
+        if dbHandler.signupinput(user, pwd):
+            return redirect("/form_login.html")
+        else:
+            return render_template(
+                "/form_signup.html",
+                error="Unable to sign up. Username may already be taken, or there was an error on our end.",
+            )
     else:
         return render_template("/form_signup.html")
 
