@@ -18,7 +18,7 @@ def loginput(user, pwd):
     cursor.execute("SELECT password FROM user_data WHERE username = ?", (user,))
     details = cursor.fetchone()
     connection.close()
-    if details == []:
+    if details == None:
         print("login failed!")
         return False
     else:
