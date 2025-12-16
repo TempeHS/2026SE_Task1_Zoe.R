@@ -6,7 +6,6 @@ import bcrypt
 def getdata():
     connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM user_data")
     connection.close()
     return cursor
 
@@ -41,6 +40,11 @@ def loginput(user, pwd):
 # adds user
 def signupinput(user, pwd):
     try:
+        if user == "":
+            user = None
+        if pwd == "":
+            pwd = None
+            return False
         connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
         cursor = connection.cursor()
         bytes = pwd.encode("utf-8")
@@ -58,6 +62,24 @@ def signupinput(user, pwd):
 
 def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, notes):
     try:
+        if user == "":
+            user = None
+        if developer == "":
+            developer = None
+        if project == "":
+            project = None
+        if start == "":
+            start = None
+        if end == "":
+            end = None
+        if diarytime == "":
+            diarytime = None
+        if worktime == "":
+            worktime = None
+        if repo == "":
+            repo = None
+        if notes == "":
+            notes = None
         connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
         cursor = connection.cursor()
         cursor.execute(

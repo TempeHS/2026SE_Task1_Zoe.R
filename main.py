@@ -89,6 +89,8 @@ def login():
 @app.route("/logout.html", methods=["GET"])
 def logout():
     session.clear()
+    user = None
+    print(user)
     return redirect("/form_login.html")
 
 
@@ -125,13 +127,16 @@ def cosup():
             ):
                 return redirect("/devlogs.html")
             else:
+                print("devlog unsucessful")
                 return render_template(
                     "/form_devlog.html",
                     error="Unable to add devlog. Either you haven't submitted everything or this was an error on our end.",
                 )
         except NameError:
+            print("bleghhhh :P")
             return render_template("/form_devlog.html")
     else:
+        print("blehhh :P")
         return render_template("/form_devlog.html")
 
 
