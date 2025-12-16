@@ -109,9 +109,23 @@ def signup():
 @app.route("/form_devlog.html", methods=["POST", "GET"])
 def cosup():
     if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/form_devlog.html")
+        developer = request.form.get("developer", "").strip()
+        project = request.form.get("project", "").strip()
+        start = request.form.get("start", "").strip()
+        end = request.form.get("end", "").strip()
+        diarytime = request.form.get("diarytime", "").strip()
+        worktime = request.form.get("worktime", "").strip()
+        repo = request.form.get("repo", "").strip()
+        notes = request.form.get("notes", "").strip()
+        if dbHandler.devlogadd(
+            developer, project, start, end, diarytime, worktime, repo, notes
+        ):
+            return redirect("/devlogs.html")
+        else:
+            return render_template(
+                "/form_devlog.html",
+                error="Unable to add devlog. This was likely due to an error on our end.",
+            )
     else:
         return render_template("/form_devlog.html")
 

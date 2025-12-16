@@ -11,6 +11,13 @@ def getdata():
     return cursor
 
 
+# OLD code for creating the devlog table
+# connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
+# cursor = connection.cursor()
+# cursor.execute("CREATE TABLE developer_logs(dev_id TEXT NOT NULL, developer_name TEXT NOT NULL, project_name TEXT NOT NULL, start_time TEXT NOT NULL, end_time TEXT NOT NULL, diary_time_spent TEXT NOT NULL, working_time_spent TEXT NOT NULL, repo_info TEXT NOT NULL, project_notes TEXT NOT NULL)")
+# connection.close()
+
+
 # authenticates login
 def loginput(user, pwd):
     connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
@@ -24,8 +31,11 @@ def loginput(user, pwd):
     else:
         hashedinput = pwd.encode("utf-8")
         passwordoutput = details[0]
-        print(passwordoutput)
+        print("login success!")
         return bcrypt.checkpw(hashedinput, passwordoutput)
+
+
+# login failed and login success print messages are used for debugging and have no actual effect on the website
 
 
 # adds user
@@ -44,6 +54,18 @@ def signupinput(user, pwd):
         return True
     except sql.IntegrityError:
         return False
+
+
+def devlogadd(developer, project, start, end, diarytime, worktime, repo, notes):
+    connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO developer_logs (developer_name, project_name,start_time, end_time, diary_time_spent, working_time_spent, repo_info, project_notes) VALUES (?,?,?,?,?,?,?,?)",
+        (developer, project, start, end, diarytime, worktime, repo, notes),
+    )
+    connection.commit()
+    connection.close()
+    return True
 
 
 # TEST CODE FOR THE INPUT SYSTEM - NO HASHING NO INPUT VALIDATION WE DIE LIKE
