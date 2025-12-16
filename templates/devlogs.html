@@ -1,11 +1,8 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="container">
   <div class="row">
-    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>(The formatting is a work in progress)</body></div>
-  </div>
-  <div class="row">
-    <div class="col-4">
-      <h2>Search</h2>
+    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>Current code searches developer names, returns values in python terminal</body></div>
+      <div class="col-4"><h2>Search</h2>
       <br />
       <form action="/devlogs.html" method="POST" class="d-flex" role="search">
         <input
@@ -15,7 +12,7 @@
           placeholder="Search"
           aria-label="Search"
         />
-        <div class="btn-group">
+        <!-- <div class="btn-group">
   <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Small button
   </button>
@@ -30,15 +27,42 @@
     <li><a class="dropdown-item" href="#">Repository</a></li>
     <li><a class="dropdown-item" href="#">Notes</a></li>
   </ul>
-</div>
+</div> -->
         <button class="btn btn-outline-success" type="submit">Search</button>
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
       </form>
     </div>
-    <div class="col-6">
+    <div class="col-8">
       <h2>Devlogs</h2>
-      <br />Subsequent columns continue along the new line.
+      <br /><table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Developer</th>
+            <th>Project</th>
+            <th>Start time</th>
+            <th>End time</th>
+            <th>Log updated</th>
+            <th>Time spent</th>
+            <th>Repository</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+            <td>[]</td>
+        </tr>
+    </tbody>
+</table>
     </div>
   </div>
 </div>

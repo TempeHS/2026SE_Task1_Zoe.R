@@ -1,9 +1,7 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="container">
   <div class="row">
-    <h1>
-      give me your password, and while we're at it, your credit card details too
-    </h1>
+    <h1>Log in</h1>
   </div>
 </div>
 <div class="container">
@@ -40,6 +38,9 @@
       </div>
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
+    <body>
+      2-factor authentication is currently disabled due to an importerror
+    </body>
   </div>
 </div>
 {% endblock %}

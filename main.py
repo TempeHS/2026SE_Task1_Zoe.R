@@ -12,7 +12,7 @@ import userManagement as dbHandler
 # import os
 # import base64
 # from io import BytesIO
-import requests
+# import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
@@ -36,12 +36,6 @@ logging.basicConfig(
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"
-
-
-# def home():
-#    user_secret = pyotp.random_base32()
-#    return redirect(url_for("enable_2fa"))
-
 
 csrf = CSRFProtect(app)
 limiter = Limiter(
@@ -189,11 +183,20 @@ def tanup():
 # def home():
 #    user_secret = pyotp.random_base32()
 #    totp = pyotp.TOTP(user_secret)
-#    otp_uri = totp.provisioning_uri(name=username, issuer_name="YourAppName")
+#    otp_uri = totp.provisioning_uri(name=user, issuer_name="YourAppName")
 #    qr_code = pyqrcode.create(otp_uri)
 #    stream = BytesIO()
 #    qr_code.png(stream, scale=5)
 #    qr_code_b64 = base64.b64encode(stream.getvalue()).decode("utf-8")
+#    otp_input = request.form["otp"]
+#    if request.method == "POST":
+#        otp_input = request.form["otp"]
+#    if totp.verify(otp_input):
+#        return render_template("some_page.html")
+#        # return redirect(url_for('home'))  # Redirect to home if OTP is valid
+#    else:
+#        return "Invalid OTP. Please try again.", 401
+#    return render_template("/index.html")
 
 
 # Endpoint for logging CSP violations
