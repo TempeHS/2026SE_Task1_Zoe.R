@@ -1,13 +1,45 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="container">
   <div class="row">
-    <h1 class="display-1">Developer logs</h1>
+    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>(The formatting is a work in progress)</body></div>
   </div>
   <div class="row">
-    <body>
-      NO ONE has posted anything here smh, lazy ass bitches also how the fuck do
-      you add sql tables to html sites help me please
-    </body>
+    <div class="col-4">
+      <h2>Search</h2>
+      <br />
+      <form action="/devlogs.html" method="POST" class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          name="devlog_search"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Small button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Username</a></li>
+    <li><a class="dropdown-item" href="#">Developer</a></li>
+    <li><a class="dropdown-item" href="#">Project</a></li>
+    <li><a class="dropdown-item" href="#">Start Time</a></li>
+    <li><a class="dropdown-item" href="#">End Time</a></li>
+    <li><a class="dropdown-item" href="#">Log Time</a></li>
+    <li><a class="dropdown-item" href="#">Time Spent</a></li>
+    <li><a class="dropdown-item" href="#">Repository</a></li>
+    <li><a class="dropdown-item" href="#">Notes</a></li>
+  </ul>
+</div>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    </form>
+      </form>
+    </div>
+    <div class="col-6">
+      <h2>Devlogs</h2>
+      <br />Subsequent columns continue along the new line.
+    </div>
   </div>
 </div>
 {% endblock %}

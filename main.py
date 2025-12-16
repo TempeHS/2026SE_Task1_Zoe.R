@@ -4,10 +4,20 @@ from flask import render_template
 from flask import request
 from flask import jsonify
 from flask import session
+from flask import url_for
+import userManagement as dbHandler
+
+# import pyotp
+# import pyqrcode
+# import os
+# import base64
+# from io import BytesIO
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 import userManagement as dbHandler
 
@@ -22,10 +32,24 @@ logging.basicConfig(
     format="%(asctime)s %(message)s",
 )
 
+
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"
+
+
+# def home():
+#    user_secret = pyotp.random_base32()
+#    return redirect(url_for("enable_2fa"))
+
+
 csrf = CSRFProtect(app)
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://",
+)
 
 
 # Redirect index.html to domain root for consistent UX
@@ -69,6 +93,7 @@ def privacy():
 
 
 @app.route("/form_login.html", methods=["POST", "GET"])
+@limiter.limit("1/second", override_defaults=False)
 def login():
     if request.method == "POST":
         global user
@@ -81,18 +106,19 @@ def login():
         else:
             return render_template("/form_login.html")
     else:
-        return render_template(
-            "/form_login.html", error="Username or password is incorrect"
-        )
+        print("Username or password is incorrect.")
+        return render_template("/form_login.html")
 
 
 @app.route("/logout.html", methods=["GET"])
+@limiter.limit("1/second", override_defaults=False)
 def logout():
     session.clear()
     return redirect("/form_login.html")
 
 
 @app.route("/form_signup.html", methods=["POST", "GET"])
+@limiter.limit("1/second", override_defaults=False)
 def signup():
     if request.method == "POST":
         user = request.form.get("user", "").strip()
@@ -100,15 +126,18 @@ def signup():
         if dbHandler.signupinput(user, pwd):
             return redirect("/form_login.html")
         else:
+            print(
+                "Unable to sign up. Username may already be taken, or there was an error on our end."
+            )
             return render_template(
                 "/form_signup.html",
-                error="Unable to sign up. Username may already be taken, or there was an error on our end.",
             )
     else:
         return render_template("/form_signup.html")
 
 
 @app.route("/form_devlog.html", methods=["POST", "GET"])
+@limiter.limit("1/second", override_defaults=False)
 def cosup():
     if request.method == "POST":
         try:
@@ -128,10 +157,11 @@ def cosup():
             ):
                 return redirect("/devlogs.html")
             else:
-                print("devlog unsucessful")
+                print(
+                    "Unable to add devlog. Either you haven't submitted everything or this was an error on our end."
+                )
                 return render_template(
                     "/form_devlog.html",
-                    error="Unable to add devlog. Either you haven't submitted everything or this was an error on our end.",
                 )
         except NameError:
             print("bleghhhh :P")
@@ -141,9 +171,29 @@ def cosup():
         return render_template("/form_devlog.html")
 
 
-@app.route("/devlogs.html", methods=["GET"])
+@app.route("/devlogs.html", methods=["POST", "GET"])
 def tanup():
-    return render_template("/devlogs.html")
+    print("searching")
+    if request.method == "POST":
+        searchlog = request.form.get("devlog_search", "").strip()
+        if dbHandler.devlogsearch(searchlog):
+            print("search success")
+            return render_template("/devlogs.html")
+        else:
+            return render_template("/devlogs.html")
+    else:
+        return render_template("/devlogs.html")
+
+
+# @app.route("/2_factor_auth.html", methods=["POST", "GET"])
+# def home():
+#    user_secret = pyotp.random_base32()
+#    totp = pyotp.TOTP(user_secret)
+#    otp_uri = totp.provisioning_uri(name=username, issuer_name="YourAppName")
+#    qr_code = pyqrcode.create(otp_uri)
+#    stream = BytesIO()
+#    qr_code.png(stream, scale=5)
+#    qr_code_b64 = base64.b64encode(stream.getvalue()).decode("utf-8")
 
 
 # Endpoint for logging CSP violations

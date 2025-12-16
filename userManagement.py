@@ -93,6 +93,22 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         return False
 
 
+def devlogsearch(searchlog):
+    try:
+        print(searchlog)
+        connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
+        cursor = connection.cursor()
+        cursor.execute(
+            "SELECT * FROM developer_logs WHERE developer_name = ?", (searchlog,)
+        )
+        logs = cursor.fetchall()
+        connection.close()
+        print(logs)
+        return True
+    except sql.IntegrityError:
+        return False
+
+
 # TEST CODE FOR THE INPUT SYSTEM - NO HASHING NO INPUT VALIDATION WE DIE LIKE
 # usertest = input("no ")
 # passtest = input("yes ")
