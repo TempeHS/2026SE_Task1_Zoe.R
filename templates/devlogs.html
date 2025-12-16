@@ -1,7 +1,18 @@
+<!-- SEARCH FUNCTION 
+currently unadded, as I am unsure of how to connect the python/SQL and HTML aspects
+and I do not believe I have the time to do that on top of the security report
+- drop down button containing each option able to be searched through (user, dev, project, etc)
+- whichever option the user selects on the button is the area of the SQL table that is searched through
+(this would likely be accomplished with placeholders/variables, I'm just not sure how to get the dropdown
+button to work)
+- searches through SQL table for entries containing those keywords
+- updates developer logs on right to only these entries
+-->
+
 {% extends 'layout.html' %} {% block content %}
 <div class="container">
   <div class="row">
-    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>Current code searches developer names, returns values in python terminal</body></div>
+    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>Current code searches developer names, returns values in python terminal. Logic for the intended rest of the code can be found in the devlogs.html file</body></div>
       <div class="col-4"><h2>Search</h2>
       <br />
       <form action="/devlogs.html" method="POST" class="d-flex" role="search">
@@ -35,7 +46,8 @@
     </div>
     <div class="col-8">
       <h2>Devlogs</h2>
-      <br /><table>
+      <br />
+      <table>
     <thead>
         <tr>
             <th>Username</th>
