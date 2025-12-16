@@ -89,8 +89,6 @@ def login():
 @app.route("/logout.html", methods=["GET"])
 def logout():
     session.clear()
-    user = None
-    print(user)
     return redirect("/form_login.html")
 
 
@@ -122,6 +120,9 @@ def cosup():
             worktime = request.form.get("worktime", "").strip()
             repo = request.form.get("repo", "").strip()
             notes = request.form.get("notes", "").strip()
+            if not session.get("login") or not session.get("user"):
+                print("not logged inn")
+                return render_template("/form_devlog.html")
             if dbHandler.devlogadd(
                 user, developer, project, start, end, diarytime, worktime, repo, notes
             ):

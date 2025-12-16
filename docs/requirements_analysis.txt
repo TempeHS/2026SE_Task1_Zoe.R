@@ -11,8 +11,11 @@
 
 USER REQUIREMENTS 
     ability to sign in and sign up
-    search function
+    ability to add developer logs
+    ability to search through existing developer logs by name, date, project, etc
 
 SECURITY REQUIREMENTS
     two factor authentication 
     SQL database not vulnerable to SQL injection
+    hashing algorithm which protects passwords
+    able to protect against security vulnerabilities such as cross-site request forgery and cross-site scripting

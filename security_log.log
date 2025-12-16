@@ -4004,3 +4004,554 @@
 2025-12-16 10:54:59,910 127.0.0.1 - - [16/Dec/2025 10:54:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2025-12-16 10:54:59,938 127.0.0.1 - - [16/Dec/2025 10:54:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-12-16 10:54:59,971 127.0.0.1 - - [16/Dec/2025 10:54:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:22,549 127.0.0.1 - - [16/Dec/2025 10:56:22] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:56:22,623 127.0.0.1 - - [16/Dec/2025 10:56:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:22,627 127.0.0.1 - - [16/Dec/2025 10:56:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:22,695 127.0.0.1 - - [16/Dec/2025 10:56:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:22,800 127.0.0.1 - - [16/Dec/2025 10:56:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:22,829 127.0.0.1 - - [16/Dec/2025 10:56:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:26,964 127.0.0.1 - - [16/Dec/2025 10:56:26] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 10:56:27,000 127.0.0.1 - - [16/Dec/2025 10:56:27] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 10:56:27,033 127.0.0.1 - - [16/Dec/2025 10:56:27] "GET / HTTP/1.1" 200 -
+2025-12-16 10:56:27,096 127.0.0.1 - - [16/Dec/2025 10:56:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:27,100 127.0.0.1 - - [16/Dec/2025 10:56:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:27,102 127.0.0.1 - - [16/Dec/2025 10:56:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:27,137 127.0.0.1 - - [16/Dec/2025 10:56:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:27,167 127.0.0.1 - - [16/Dec/2025 10:56:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:27,227 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 10:56:27,227 127.0.0.1 - - [16/Dec/2025 10:56:27] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 10:56:28,090 127.0.0.1 - - [16/Dec/2025 10:56:28] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:56:28,146 127.0.0.1 - - [16/Dec/2025 10:56:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:28,149 127.0.0.1 - - [16/Dec/2025 10:56:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:28,152 127.0.0.1 - - [16/Dec/2025 10:56:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:56:28,192 127.0.0.1 - - [16/Dec/2025 10:56:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:56:28,222 127.0.0.1 - - [16/Dec/2025 10:56:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:01,439 127.0.0.1 - - [16/Dec/2025 10:57:01] "[32mPOST /form_devlog.html HTTP/1.1[0m" 302 -
+2025-12-16 10:57:01,489 127.0.0.1 - - [16/Dec/2025 10:57:01] "GET /devlogs.html HTTP/1.1" 200 -
+2025-12-16 10:57:01,552 127.0.0.1 - - [16/Dec/2025 10:57:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:01,554 127.0.0.1 - - [16/Dec/2025 10:57:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:01,557 127.0.0.1 - - [16/Dec/2025 10:57:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:01,596 127.0.0.1 - - [16/Dec/2025 10:57:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:01,630 127.0.0.1 - - [16/Dec/2025 10:57:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:06,893 127.0.0.1 - - [16/Dec/2025 10:57:06] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 10:57:06,922 127.0.0.1 - - [16/Dec/2025 10:57:06] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:57:06,977 127.0.0.1 - - [16/Dec/2025 10:57:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:06,982 127.0.0.1 - - [16/Dec/2025 10:57:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:06,985 127.0.0.1 - - [16/Dec/2025 10:57:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:07,021 127.0.0.1 - - [16/Dec/2025 10:57:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:07,053 127.0.0.1 - - [16/Dec/2025 10:57:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:08,384 127.0.0.1 - - [16/Dec/2025 10:57:08] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:57:08,473 127.0.0.1 - - [16/Dec/2025 10:57:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:08,476 127.0.0.1 - - [16/Dec/2025 10:57:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:08,478 127.0.0.1 - - [16/Dec/2025 10:57:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:08,516 127.0.0.1 - - [16/Dec/2025 10:57:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:08,552 127.0.0.1 - - [16/Dec/2025 10:57:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:44,622 127.0.0.1 - - [16/Dec/2025 10:57:44] "[32mPOST /form_devlog.html HTTP/1.1[0m" 302 -
+2025-12-16 10:57:44,658 127.0.0.1 - - [16/Dec/2025 10:57:44] "GET /devlogs.html HTTP/1.1" 200 -
+2025-12-16 10:57:44,714 127.0.0.1 - - [16/Dec/2025 10:57:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:44,717 127.0.0.1 - - [16/Dec/2025 10:57:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:44,720 127.0.0.1 - - [16/Dec/2025 10:57:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:57:44,763 127.0.0.1 - - [16/Dec/2025 10:57:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:57:44,793 127.0.0.1 - - [16/Dec/2025 10:57:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:44,157  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 10:58:44,194  * Restarting with stat
+2025-12-16 10:58:44,436  * Debugger is active!
+2025-12-16 10:58:44,436  * Debugger PIN: 109-154-358
+2025-12-16 10:58:47,699 127.0.0.1 - - [16/Dec/2025 10:58:47] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 10:58:47,749 127.0.0.1 - - [16/Dec/2025 10:58:47] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:58:47,824 127.0.0.1 - - [16/Dec/2025 10:58:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:58:47,825 127.0.0.1 - - [16/Dec/2025 10:58:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:58:47,828 127.0.0.1 - - [16/Dec/2025 10:58:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:47,865 127.0.0.1 - - [16/Dec/2025 10:58:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:47,895 127.0.0.1 - - [16/Dec/2025 10:58:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:48,763 127.0.0.1 - - [16/Dec/2025 10:58:48] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:58:48,819 127.0.0.1 - - [16/Dec/2025 10:58:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:58:48,821 127.0.0.1 - - [16/Dec/2025 10:58:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:58:48,824 127.0.0.1 - - [16/Dec/2025 10:58:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:48,858 127.0.0.1 - - [16/Dec/2025 10:58:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:58:48,887 127.0.0.1 - - [16/Dec/2025 10:58:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:03,023 127.0.0.1 - - [16/Dec/2025 10:59:03] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:59:03,083 127.0.0.1 - - [16/Dec/2025 10:59:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:03,085 127.0.0.1 - - [16/Dec/2025 10:59:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:03,088 127.0.0.1 - - [16/Dec/2025 10:59:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:03,124 127.0.0.1 - - [16/Dec/2025 10:59:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:03,153 127.0.0.1 - - [16/Dec/2025 10:59:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:18,792  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 10:59:18,829  * Restarting with stat
+2025-12-16 10:59:19,050  * Debugger is active!
+2025-12-16 10:59:19,051  * Debugger PIN: 109-154-358
+2025-12-16 10:59:19,304 127.0.0.1 - - [16/Dec/2025 10:59:19] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:59:19,390 127.0.0.1 - - [16/Dec/2025 10:59:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:19,393 127.0.0.1 - - [16/Dec/2025 10:59:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:19,395 127.0.0.1 - - [16/Dec/2025 10:59:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:19,480 127.0.0.1 - - [16/Dec/2025 10:59:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:19,524 127.0.0.1 - - [16/Dec/2025 10:59:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,283 127.0.0.1 - - [16/Dec/2025 10:59:22] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:59:22,336 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,339 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,342 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,430 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,459 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:22,540 127.0.0.1 - - [16/Dec/2025 10:59:22] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 10:59:23,918 127.0.0.1 - - [16/Dec/2025 10:59:23] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:59:23,978 127.0.0.1 - - [16/Dec/2025 10:59:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:23,981 127.0.0.1 - - [16/Dec/2025 10:59:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:23,983 127.0.0.1 - - [16/Dec/2025 10:59:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:24,036 127.0.0.1 - - [16/Dec/2025 10:59:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:24,079 127.0.0.1 - - [16/Dec/2025 10:59:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:41,854 127.0.0.1 - - [16/Dec/2025 10:59:41] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:59:41,907 127.0.0.1 - - [16/Dec/2025 10:59:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:41,911 127.0.0.1 - - [16/Dec/2025 10:59:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:41,914 127.0.0.1 - - [16/Dec/2025 10:59:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:41,957 127.0.0.1 - - [16/Dec/2025 10:59:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:41,992 127.0.0.1 - - [16/Dec/2025 10:59:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:43,563 127.0.0.1 - - [16/Dec/2025 10:59:43] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:59:43,617 127.0.0.1 - - [16/Dec/2025 10:59:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:43,622 127.0.0.1 - - [16/Dec/2025 10:59:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:43,625 127.0.0.1 - - [16/Dec/2025 10:59:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:43,656 127.0.0.1 - - [16/Dec/2025 10:59:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:43,683 127.0.0.1 - - [16/Dec/2025 10:59:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,140 127.0.0.1 - - [16/Dec/2025 10:59:49] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 10:59:49,232 127.0.0.1 - - [16/Dec/2025 10:59:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 10:59:49,276 127.0.0.1 - - [16/Dec/2025 10:59:49] "GET / HTTP/1.1" 200 -
+2025-12-16 10:59:49,349 127.0.0.1 - - [16/Dec/2025 10:59:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,352 127.0.0.1 - - [16/Dec/2025 10:59:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,354 127.0.0.1 - - [16/Dec/2025 10:59:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,491 127.0.0.1 - - [16/Dec/2025 10:59:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,520 127.0.0.1 - - [16/Dec/2025 10:59:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:49,617 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 10:59:49,617 127.0.0.1 - - [16/Dec/2025 10:59:49] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 10:59:50,748 127.0.0.1 - - [16/Dec/2025 10:59:50] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 10:59:50,777 127.0.0.1 - - [16/Dec/2025 10:59:50] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 10:59:50,856 127.0.0.1 - - [16/Dec/2025 10:59:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:50,859 127.0.0.1 - - [16/Dec/2025 10:59:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:50,861 127.0.0.1 - - [16/Dec/2025 10:59:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:50,893 127.0.0.1 - - [16/Dec/2025 10:59:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:50,924 127.0.0.1 - - [16/Dec/2025 10:59:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:52,067 127.0.0.1 - - [16/Dec/2025 10:59:52] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 10:59:52,126 127.0.0.1 - - [16/Dec/2025 10:59:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:52,129 127.0.0.1 - - [16/Dec/2025 10:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:59:52,131 127.0.0.1 - - [16/Dec/2025 10:59:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:52,178 127.0.0.1 - - [16/Dec/2025 10:59:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 10:59:52,210 127.0.0.1 - - [16/Dec/2025 10:59:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:00:30,644 127.0.0.1 - - [16/Dec/2025 11:00:30] "[32mPOST /form_devlog.html HTTP/1.1[0m" 302 -
+2025-12-16 11:00:30,683 127.0.0.1 - - [16/Dec/2025 11:00:30] "GET /devlogs.html HTTP/1.1" 200 -
+2025-12-16 11:00:30,755 127.0.0.1 - - [16/Dec/2025 11:00:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:00:30,758 127.0.0.1 - - [16/Dec/2025 11:00:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:00:30,760 127.0.0.1 - - [16/Dec/2025 11:00:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:00:30,793 127.0.0.1 - - [16/Dec/2025 11:00:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:00:30,824 127.0.0.1 - - [16/Dec/2025 11:00:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:00:58,955  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:00:58,985  * Restarting with stat
+2025-12-16 11:00:59,211  * Debugger is active!
+2025-12-16 11:00:59,212  * Debugger PIN: 109-154-358
+2025-12-16 11:01:05,939 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:01:05,939 [33mPress CTRL+C to quit[0m
+2025-12-16 11:01:05,940  * Restarting with stat
+2025-12-16 11:01:06,181  * Debugger is active!
+2025-12-16 11:01:06,181  * Debugger PIN: 109-154-358
+2025-12-16 11:01:11,401 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:01:11,402 [33mPress CTRL+C to quit[0m
+2025-12-16 11:01:11,403  * Restarting with stat
+2025-12-16 11:01:11,646  * Debugger is active!
+2025-12-16 11:01:11,646  * Debugger PIN: 109-154-358
+2025-12-16 11:01:24,676 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:01:24,677 [33mPress CTRL+C to quit[0m
+2025-12-16 11:01:24,677  * Restarting with stat
+2025-12-16 11:01:24,904  * Debugger is active!
+2025-12-16 11:01:24,904  * Debugger PIN: 109-154-358
+2025-12-16 11:01:27,144 127.0.0.1 - - [16/Dec/2025 11:01:27] "GET / HTTP/1.1" 200 -
+2025-12-16 11:01:27,213 127.0.0.1 - - [16/Dec/2025 11:01:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:27,217 127.0.0.1 - - [16/Dec/2025 11:01:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:27,217 127.0.0.1 - - [16/Dec/2025 11:01:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:27,326 127.0.0.1 - - [16/Dec/2025 11:01:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:27,364 127.0.0.1 - - [16/Dec/2025 11:01:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:27,510 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:01:27,510 127.0.0.1 - - [16/Dec/2025 11:01:27] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:01:30,091 127.0.0.1 - - [16/Dec/2025 11:01:30] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:01:30,149 127.0.0.1 - - [16/Dec/2025 11:01:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:30,152 127.0.0.1 - - [16/Dec/2025 11:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:30,155 127.0.0.1 - - [16/Dec/2025 11:01:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:30,208 127.0.0.1 - - [16/Dec/2025 11:01:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:30,244 127.0.0.1 - - [16/Dec/2025 11:01:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,048 127.0.0.1 - - [16/Dec/2025 11:01:36] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 11:01:36,122 127.0.0.1 - - [16/Dec/2025 11:01:36] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 11:01:36,157 127.0.0.1 - - [16/Dec/2025 11:01:36] "GET / HTTP/1.1" 200 -
+2025-12-16 11:01:36,220 127.0.0.1 - - [16/Dec/2025 11:01:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,222 127.0.0.1 - - [16/Dec/2025 11:01:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,225 127.0.0.1 - - [16/Dec/2025 11:01:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,257 127.0.0.1 - - [16/Dec/2025 11:01:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,287 127.0.0.1 - - [16/Dec/2025 11:01:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:36,380 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:01:36,380 127.0.0.1 - - [16/Dec/2025 11:01:36] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:01:37,292 127.0.0.1 - - [16/Dec/2025 11:01:37] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 11:01:37,319 127.0.0.1 - - [16/Dec/2025 11:01:37] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:01:37,399 127.0.0.1 - - [16/Dec/2025 11:01:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:37,404 127.0.0.1 - - [16/Dec/2025 11:01:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:37,407 127.0.0.1 - - [16/Dec/2025 11:01:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:37,449 127.0.0.1 - - [16/Dec/2025 11:01:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:37,478 127.0.0.1 - - [16/Dec/2025 11:01:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:38,236 127.0.0.1 - - [16/Dec/2025 11:01:38] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:01:38,285 127.0.0.1 - - [16/Dec/2025 11:01:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:38,292 127.0.0.1 - - [16/Dec/2025 11:01:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:38,296 127.0.0.1 - - [16/Dec/2025 11:01:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:01:38,342 127.0.0.1 - - [16/Dec/2025 11:01:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:01:38,392 127.0.0.1 - - [16/Dec/2025 11:01:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:02:33,451 127.0.0.1 - - [16/Dec/2025 11:02:33] "[35m[1mPOST /form_devlog.html HTTP/1.1[0m" 500 -
+2025-12-16 11:02:33,521 127.0.0.1 - - [16/Dec/2025 11:02:33] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-16 11:02:33,524 127.0.0.1 - - [16/Dec/2025 11:02:33] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:02:33,605 127.0.0.1 - - [16/Dec/2025 11:02:33] "GET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png&s=pPjMcEjbDH4F4Z6EeI59 HTTP/1.1" 200 -
+2025-12-16 11:02:33,639 127.0.0.1 - - [16/Dec/2025 11:02:33] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-16 11:03:23,962  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:03:23,994  * Restarting with stat
+2025-12-16 11:03:24,221  * Debugger is active!
+2025-12-16 11:03:24,222  * Debugger PIN: 109-154-358
+2025-12-16 11:04:34,897  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:04:34,927  * Restarting with stat
+2025-12-16 11:04:35,143  * Debugger is active!
+2025-12-16 11:04:35,143  * Debugger PIN: 109-154-358
+2025-12-16 11:04:36,778 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:04:36,779 [33mPress CTRL+C to quit[0m
+2025-12-16 11:04:36,779  * Restarting with stat
+2025-12-16 11:04:37,041  * Debugger is active!
+2025-12-16 11:04:37,042  * Debugger PIN: 109-154-358
+2025-12-16 11:04:37,951 127.0.0.1 - - [16/Dec/2025 11:04:37] "GET / HTTP/1.1" 200 -
+2025-12-16 11:04:38,194 127.0.0.1 - - [16/Dec/2025 11:04:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:04:38,218 127.0.0.1 - - [16/Dec/2025 11:04:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:04:38,220 127.0.0.1 - - [16/Dec/2025 11:04:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:04:38,356 127.0.0.1 - - [16/Dec/2025 11:04:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:04:38,530 127.0.0.1 - - [16/Dec/2025 11:04:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:04:38,651 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:04:38,651 127.0.0.1 - - [16/Dec/2025 11:04:38] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:05:04,364  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:05:04,395  * Restarting with stat
+2025-12-16 11:05:04,621  * Debugger is active!
+2025-12-16 11:05:04,622  * Debugger PIN: 109-154-358
+2025-12-16 11:05:04,716 127.0.0.1 - - [16/Dec/2025 11:05:04] "GET / HTTP/1.1" 200 -
+2025-12-16 11:05:04,770 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,777 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,784 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,823 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,853 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,889 127.0.0.1 - - [16/Dec/2025 11:05:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 11:05:04,947 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:05:04,947 127.0.0.1 - - [16/Dec/2025 11:05:04] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:05:05,620 127.0.0.1 - - [16/Dec/2025 11:05:05] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:05:05,682 127.0.0.1 - - [16/Dec/2025 11:05:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:05,685 127.0.0.1 - - [16/Dec/2025 11:05:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:05,688 127.0.0.1 - - [16/Dec/2025 11:05:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:05,736 127.0.0.1 - - [16/Dec/2025 11:05:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:05,770 127.0.0.1 - - [16/Dec/2025 11:05:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,659 127.0.0.1 - - [16/Dec/2025 11:05:10] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 11:05:10,697 127.0.0.1 - - [16/Dec/2025 11:05:10] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 11:05:10,767 127.0.0.1 - - [16/Dec/2025 11:05:10] "GET / HTTP/1.1" 200 -
+2025-12-16 11:05:10,816 127.0.0.1 - - [16/Dec/2025 11:05:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,818 127.0.0.1 - - [16/Dec/2025 11:05:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,820 127.0.0.1 - - [16/Dec/2025 11:05:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,862 127.0.0.1 - - [16/Dec/2025 11:05:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,890 127.0.0.1 - - [16/Dec/2025 11:05:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:10,995 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:05:10,995 127.0.0.1 - - [16/Dec/2025 11:05:10] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:05:14,485 127.0.0.1 - - [16/Dec/2025 11:05:14] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 11:05:14,520 127.0.0.1 - - [16/Dec/2025 11:05:14] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:05:14,577 127.0.0.1 - - [16/Dec/2025 11:05:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:14,583 127.0.0.1 - - [16/Dec/2025 11:05:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:14,585 127.0.0.1 - - [16/Dec/2025 11:05:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:14,618 127.0.0.1 - - [16/Dec/2025 11:05:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:14,660 127.0.0.1 - - [16/Dec/2025 11:05:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:17,804 127.0.0.1 - - [16/Dec/2025 11:05:17] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:05:17,861 127.0.0.1 - - [16/Dec/2025 11:05:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:17,864 127.0.0.1 - - [16/Dec/2025 11:05:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:17,866 127.0.0.1 - - [16/Dec/2025 11:05:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:05:17,912 127.0.0.1 - - [16/Dec/2025 11:05:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:05:17,939 127.0.0.1 - - [16/Dec/2025 11:05:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:07:10,021 127.0.0.1 - - [16/Dec/2025 11:07:10] "[32mPOST /form_devlog.html HTTP/1.1[0m" 302 -
+2025-12-16 11:07:10,055 127.0.0.1 - - [16/Dec/2025 11:07:10] "GET /devlogs.html HTTP/1.1" 200 -
+2025-12-16 11:07:10,142 127.0.0.1 - - [16/Dec/2025 11:07:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:07:10,234 127.0.0.1 - - [16/Dec/2025 11:07:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:07:10,238 127.0.0.1 - - [16/Dec/2025 11:07:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:07:10,279 127.0.0.1 - - [16/Dec/2025 11:07:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:07:10,307 127.0.0.1 - - [16/Dec/2025 11:07:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:19:30,029  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:19:30,059  * Restarting with stat
+2025-12-16 11:19:30,282  * Debugger is active!
+2025-12-16 11:19:30,283  * Debugger PIN: 109-154-358
+2025-12-16 11:19:51,499  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:19:51,531  * Restarting with stat
+2025-12-16 11:19:51,747  * Debugger is active!
+2025-12-16 11:19:51,747  * Debugger PIN: 109-154-358
+2025-12-16 11:19:55,470 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:19:55,470 [33mPress CTRL+C to quit[0m
+2025-12-16 11:19:55,470  * Restarting with stat
+2025-12-16 11:19:55,697  * Debugger is active!
+2025-12-16 11:19:55,697  * Debugger PIN: 109-154-358
+2025-12-16 11:19:57,689 127.0.0.1 - - [16/Dec/2025 11:19:57] "GET / HTTP/1.1" 200 -
+2025-12-16 11:19:57,895 127.0.0.1 - - [16/Dec/2025 11:19:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:19:57,898 127.0.0.1 - - [16/Dec/2025 11:19:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:19:57,911 127.0.0.1 - - [16/Dec/2025 11:19:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:19:58,081 127.0.0.1 - - [16/Dec/2025 11:19:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:19:58,186 127.0.0.1 - - [16/Dec/2025 11:19:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:19:58,284 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:19:58,285 127.0.0.1 - - [16/Dec/2025 11:19:58] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:20:01,918 127.0.0.1 - - [16/Dec/2025 11:20:01] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:20:01,984 127.0.0.1 - - [16/Dec/2025 11:20:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:01,988 127.0.0.1 - - [16/Dec/2025 11:20:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:01,991 127.0.0.1 - - [16/Dec/2025 11:20:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:02,044 127.0.0.1 - - [16/Dec/2025 11:20:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:02,081 127.0.0.1 - - [16/Dec/2025 11:20:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:08,823 127.0.0.1 - - [16/Dec/2025 11:20:08] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:20:08,892 127.0.0.1 - - [16/Dec/2025 11:20:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:08,895 127.0.0.1 - - [16/Dec/2025 11:20:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:08,897 127.0.0.1 - - [16/Dec/2025 11:20:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:08,930 127.0.0.1 - - [16/Dec/2025 11:20:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:08,958 127.0.0.1 - - [16/Dec/2025 11:20:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:14,984 127.0.0.1 - - [16/Dec/2025 11:20:14] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 11:20:15,061 127.0.0.1 - - [16/Dec/2025 11:20:15] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 11:20:15,101 127.0.0.1 - - [16/Dec/2025 11:20:15] "GET / HTTP/1.1" 200 -
+2025-12-16 11:20:15,165 127.0.0.1 - - [16/Dec/2025 11:20:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:15,168 127.0.0.1 - - [16/Dec/2025 11:20:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:15,171 127.0.0.1 - - [16/Dec/2025 11:20:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:15,204 127.0.0.1 - - [16/Dec/2025 11:20:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:15,234 127.0.0.1 - - [16/Dec/2025 11:20:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:15,329 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:20:15,330 127.0.0.1 - - [16/Dec/2025 11:20:15] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:20:20,382 127.0.0.1 - - [16/Dec/2025 11:20:20] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:20:20,441 127.0.0.1 - - [16/Dec/2025 11:20:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:20,445 127.0.0.1 - - [16/Dec/2025 11:20:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:20:20,448 127.0.0.1 - - [16/Dec/2025 11:20:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:20,487 127.0.0.1 - - [16/Dec/2025 11:20:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:20,516 127.0.0.1 - - [16/Dec/2025 11:20:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:20:52,250  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:20:52,280  * Restarting with stat
+2025-12-16 11:25:32,224 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.50:5000
+2025-12-16 11:25:32,224 [33mPress CTRL+C to quit[0m
+2025-12-16 11:25:32,224  * Restarting with stat
+2025-12-16 11:25:32,485  * Debugger is active!
+2025-12-16 11:25:32,486  * Debugger PIN: 109-154-358
+2025-12-16 11:25:33,813 127.0.0.1 - - [16/Dec/2025 11:25:33] "GET / HTTP/1.1" 200 -
+2025-12-16 11:25:34,090 127.0.0.1 - - [16/Dec/2025 11:25:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:34,093 127.0.0.1 - - [16/Dec/2025 11:25:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:34,096 127.0.0.1 - - [16/Dec/2025 11:25:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:34,252 127.0.0.1 - - [16/Dec/2025 11:25:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:34,372 127.0.0.1 - - [16/Dec/2025 11:25:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:34,531 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:25:34,532 127.0.0.1 - - [16/Dec/2025 11:25:34] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:25:37,087 127.0.0.1 - - [16/Dec/2025 11:25:37] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:25:37,144 127.0.0.1 - - [16/Dec/2025 11:25:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:37,152 127.0.0.1 - - [16/Dec/2025 11:25:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:37,156 127.0.0.1 - - [16/Dec/2025 11:25:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:37,191 127.0.0.1 - - [16/Dec/2025 11:25:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:37,219 127.0.0.1 - - [16/Dec/2025 11:25:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,441 127.0.0.1 - - [16/Dec/2025 11:25:41] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 11:25:41,472 127.0.0.1 - - [16/Dec/2025 11:25:41] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 11:25:41,506 127.0.0.1 - - [16/Dec/2025 11:25:41] "GET / HTTP/1.1" 200 -
+2025-12-16 11:25:41,563 127.0.0.1 - - [16/Dec/2025 11:25:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,565 127.0.0.1 - - [16/Dec/2025 11:25:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,567 127.0.0.1 - - [16/Dec/2025 11:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,599 127.0.0.1 - - [16/Dec/2025 11:25:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,626 127.0.0.1 - - [16/Dec/2025 11:25:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:41,723 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:25:41,724 127.0.0.1 - - [16/Dec/2025 11:25:41] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:25:42,792 127.0.0.1 - - [16/Dec/2025 11:25:42] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 11:25:42,823 127.0.0.1 - - [16/Dec/2025 11:25:42] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:25:42,881 127.0.0.1 - - [16/Dec/2025 11:25:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:42,883 127.0.0.1 - - [16/Dec/2025 11:25:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:42,885 127.0.0.1 - - [16/Dec/2025 11:25:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:42,918 127.0.0.1 - - [16/Dec/2025 11:25:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:42,948 127.0.0.1 - - [16/Dec/2025 11:25:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:43,703 127.0.0.1 - - [16/Dec/2025 11:25:43] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:25:43,747 127.0.0.1 - - [16/Dec/2025 11:25:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:43,760 127.0.0.1 - - [16/Dec/2025 11:25:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:25:43,763 127.0.0.1 - - [16/Dec/2025 11:25:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:43,806 127.0.0.1 - - [16/Dec/2025 11:25:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:25:43,850 127.0.0.1 - - [16/Dec/2025 11:25:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:26:24,162 127.0.0.1 - - [16/Dec/2025 11:26:24] "[35m[1mPOST /form_devlog.html HTTP/1.1[0m" 500 -
+2025-12-16 11:26:24,218 127.0.0.1 - - [16/Dec/2025 11:26:24] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-16 11:26:24,228 127.0.0.1 - - [16/Dec/2025 11:26:24] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:26:24,275 127.0.0.1 - - [16/Dec/2025 11:26:24] "GET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png&s=jZFX2Bjq35nQjFppXPsz HTTP/1.1" 200 -
+2025-12-16 11:26:24,315 127.0.0.1 - - [16/Dec/2025 11:26:24] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-16 11:26:50,172  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:26:50,203  * Restarting with stat
+2025-12-16 11:26:50,424  * Debugger is active!
+2025-12-16 11:26:50,424  * Debugger PIN: 109-154-358
+2025-12-16 11:26:51,411 127.0.0.1 - - [16/Dec/2025 11:26:51] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:26:53,177 127.0.0.1 - - [16/Dec/2025 11:26:53] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:26:53,240 127.0.0.1 - - [16/Dec/2025 11:26:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:26:53,244 127.0.0.1 - - [16/Dec/2025 11:26:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:26:53,245 127.0.0.1 - - [16/Dec/2025 11:26:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:26:53,287 127.0.0.1 - - [16/Dec/2025 11:26:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:26:53,320 127.0.0.1 - - [16/Dec/2025 11:26:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:27:10,657  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:27:10,695  * Restarting with stat
+2025-12-16 11:27:10,911  * Debugger is active!
+2025-12-16 11:27:10,912  * Debugger PIN: 109-154-358
+2025-12-16 11:27:15,280 127.0.0.1 - - [16/Dec/2025 11:27:15] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:27:16,705 127.0.0.1 - - [16/Dec/2025 11:27:16] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:27:16,771 127.0.0.1 - - [16/Dec/2025 11:27:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:27:16,773 127.0.0.1 - - [16/Dec/2025 11:27:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:27:16,775 127.0.0.1 - - [16/Dec/2025 11:27:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:27:16,819 127.0.0.1 - - [16/Dec/2025 11:27:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:27:16,848 127.0.0.1 - - [16/Dec/2025 11:27:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:27:24,048  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:27:24,080  * Restarting with stat
+2025-12-16 11:27:24,317  * Debugger is active!
+2025-12-16 11:27:24,318  * Debugger PIN: 109-154-358
+2025-12-16 11:27:30,177 127.0.0.1 - - [16/Dec/2025 11:27:30] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:27:31,266 127.0.0.1 - - [16/Dec/2025 11:27:31] "[35m[1mPOST /form_devlog.html HTTP/1.1[0m" 500 -
+2025-12-16 11:27:31,317 127.0.0.1 - - [16/Dec/2025 11:27:31] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:27:31,317 127.0.0.1 - - [16/Dec/2025 11:27:31] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-16 11:27:31,348 127.0.0.1 - - [16/Dec/2025 11:27:31] "GET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png&s=QbmY8cQ8PlrnsYmzXSiN HTTP/1.1" 200 -
+2025-12-16 11:27:31,406 127.0.0.1 - - [16/Dec/2025 11:27:31] "[36mGET /form_devlog.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-16 11:28:02,687  * Detected change in '/workspaces/2026SE_Task1_Zoe.R/main.py', reloading
+2025-12-16 11:28:02,723  * Restarting with stat
+2025-12-16 11:28:02,947  * Debugger is active!
+2025-12-16 11:28:02,948  * Debugger PIN: 109-154-358
+2025-12-16 11:28:04,788 127.0.0.1 - - [16/Dec/2025 11:28:04] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:28:04,870 127.0.0.1 - - [16/Dec/2025 11:28:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:04,870 127.0.0.1 - - [16/Dec/2025 11:28:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:04,876 127.0.0.1 - - [16/Dec/2025 11:28:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:04,919 127.0.0.1 - - [16/Dec/2025 11:28:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:04,951 127.0.0.1 - - [16/Dec/2025 11:28:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:10,579 127.0.0.1 - - [16/Dec/2025 11:28:10] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:28:10,633 127.0.0.1 - - [16/Dec/2025 11:28:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:10,635 127.0.0.1 - - [16/Dec/2025 11:28:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:10,638 127.0.0.1 - - [16/Dec/2025 11:28:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:10,673 127.0.0.1 - - [16/Dec/2025 11:28:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:10,716 127.0.0.1 - - [16/Dec/2025 11:28:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:18,843 127.0.0.1 - - [16/Dec/2025 11:28:18] "[32mPOST /form_login.html HTTP/1.1[0m" 302 -
+2025-12-16 11:28:18,908 127.0.0.1 - - [16/Dec/2025 11:28:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-16 11:28:18,953 127.0.0.1 - - [16/Dec/2025 11:28:18] "GET / HTTP/1.1" 200 -
+2025-12-16 11:28:19,026 127.0.0.1 - - [16/Dec/2025 11:28:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:19,030 127.0.0.1 - - [16/Dec/2025 11:28:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:19,033 127.0.0.1 - - [16/Dec/2025 11:28:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:19,067 127.0.0.1 - - [16/Dec/2025 11:28:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:19,097 127.0.0.1 - - [16/Dec/2025 11:28:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:19,188 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/form_login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 11:28:19,189 127.0.0.1 - - [16/Dec/2025 11:28:19] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 11:28:20,551 127.0.0.1 - - [16/Dec/2025 11:28:20] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:28:20,599 127.0.0.1 - - [16/Dec/2025 11:28:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:20,608 127.0.0.1 - - [16/Dec/2025 11:28:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:20,613 127.0.0.1 - - [16/Dec/2025 11:28:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:20,651 127.0.0.1 - - [16/Dec/2025 11:28:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:20,683 127.0.0.1 - - [16/Dec/2025 11:28:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:22,450 127.0.0.1 - - [16/Dec/2025 11:28:22] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:28:22,522 127.0.0.1 - - [16/Dec/2025 11:28:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:22,526 127.0.0.1 - - [16/Dec/2025 11:28:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:22,530 127.0.0.1 - - [16/Dec/2025 11:28:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:22,567 127.0.0.1 - - [16/Dec/2025 11:28:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:22,595 127.0.0.1 - - [16/Dec/2025 11:28:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:29,209 127.0.0.1 - - [16/Dec/2025 11:28:29] "[32mGET /logout.html HTTP/1.1[0m" 302 -
+2025-12-16 11:28:29,246 127.0.0.1 - - [16/Dec/2025 11:28:29] "GET /form_login.html HTTP/1.1" 200 -
+2025-12-16 11:28:29,332 127.0.0.1 - - [16/Dec/2025 11:28:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:29,335 127.0.0.1 - - [16/Dec/2025 11:28:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:29,338 127.0.0.1 - - [16/Dec/2025 11:28:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:29,374 127.0.0.1 - - [16/Dec/2025 11:28:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:29,404 127.0.0.1 - - [16/Dec/2025 11:28:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:30,563 127.0.0.1 - - [16/Dec/2025 11:28:30] "GET /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:28:30,621 127.0.0.1 - - [16/Dec/2025 11:28:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:30,625 127.0.0.1 - - [16/Dec/2025 11:28:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:30,629 127.0.0.1 - - [16/Dec/2025 11:28:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:30,669 127.0.0.1 - - [16/Dec/2025 11:28:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:30,699 127.0.0.1 - - [16/Dec/2025 11:28:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:32,525 127.0.0.1 - - [16/Dec/2025 11:28:32] "POST /form_devlog.html HTTP/1.1" 200 -
+2025-12-16 11:28:32,577 127.0.0.1 - - [16/Dec/2025 11:28:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:32,582 127.0.0.1 - - [16/Dec/2025 11:28:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:32,586 127.0.0.1 - - [16/Dec/2025 11:28:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 11:28:32,623 127.0.0.1 - - [16/Dec/2025 11:28:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 11:28:32,652 127.0.0.1 - - [16/Dec/2025 11:28:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 12:45:47,472 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.113:5000
+2025-12-16 12:45:47,472 [33mPress CTRL+C to quit[0m
+2025-12-16 12:45:47,473  * Restarting with stat
+2025-12-16 12:45:47,785  * Debugger is active!
+2025-12-16 12:45:47,785  * Debugger PIN: 100-164-010
+2025-12-16 12:45:58,463 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.113:5000
+2025-12-16 12:45:58,463 [33mPress CTRL+C to quit[0m
+2025-12-16 12:45:58,464  * Restarting with stat
+2025-12-16 12:45:58,740  * Debugger is active!
+2025-12-16 12:45:58,741  * Debugger PIN: 100-164-010
+2025-12-16 12:46:04,688 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.113:5000
+2025-12-16 12:46:04,688 [33mPress CTRL+C to quit[0m
+2025-12-16 12:46:04,689  * Restarting with stat
+2025-12-16 12:46:04,953  * Debugger is active!
+2025-12-16 12:46:04,954  * Debugger PIN: 100-164-010
+2025-12-16 12:46:17,106 127.0.0.1 - - [16/Dec/2025 12:46:17] "GET / HTTP/1.1" 200 -
+2025-12-16 12:46:17,373 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":18,"source-file":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 12:46:17,373 127.0.0.1 - - [16/Dec/2025 12:46:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:46:17,453 127.0.0.1 - - [16/Dec/2025 12:46:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 12:46:17,454 127.0.0.1 - - [16/Dec/2025 12:46:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 12:46:17,455 127.0.0.1 - - [16/Dec/2025 12:46:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 12:46:17,596 127.0.0.1 - - [16/Dec/2025 12:46:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 12:46:17,631 127.0.0.1 - - [16/Dec/2025 12:46:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-16 12:46:17,732 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 12:46:17,732 127.0.0.1 - - [16/Dec/2025 12:46:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:47:07,378 127.0.0.1 - - [16/Dec/2025 12:47:07] "GET / HTTP/1.1" 200 -
+2025-12-16 12:47:07,472 127.0.0.1 - - [16/Dec/2025 12:47:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 12:47:07,474 127.0.0.1 - - [16/Dec/2025 12:47:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 12:47:07,477 127.0.0.1 - - [16/Dec/2025 12:47:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 12:47:07,502 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":18,"source-file":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 12:47:07,503 127.0.0.1 - - [16/Dec/2025 12:47:07] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:47:07,522 127.0.0.1 - - [16/Dec/2025 12:47:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 12:47:07,555 127.0.0.1 - - [16/Dec/2025 12:47:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 12:47:07,589 127.0.0.1 - - [16/Dec/2025 12:47:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 12:47:07,643 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 12:47:07,643 127.0.0.1 - - [16/Dec/2025 12:47:07] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:47:21,280 127.0.0.1 - - [16/Dec/2025 12:47:21] "GET / HTTP/1.1" 200 -
+2025-12-16 12:47:21,488 127.0.0.1 - - [16/Dec/2025 12:47:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 12:47:21,490 127.0.0.1 - - [16/Dec/2025 12:47:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 12:47:21,492 127.0.0.1 - - [16/Dec/2025 12:47:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 12:47:21,819 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":18,"source-file":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 12:47:21,819 127.0.0.1 - - [16/Dec/2025 12:47:21] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:47:26,276 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.113:5000
+2025-12-16 12:47:26,276 [33mPress CTRL+C to quit[0m
+2025-12-16 12:47:26,277  * Restarting with stat
+2025-12-16 12:47:26,484  * Debugger is active!
+2025-12-16 12:47:26,485  * Debugger PIN: 100-164-010
+2025-12-16 12:49:01,141 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.113:5000
+2025-12-16 12:49:01,141 [33mPress CTRL+C to quit[0m
+2025-12-16 12:49:01,141  * Restarting with stat
+2025-12-16 12:49:01,374  * Debugger is active!
+2025-12-16 12:49:01,374  * Debugger PIN: 100-164-010
+2025-12-16 12:49:03,095 127.0.0.1 - - [16/Dec/2025 12:49:03] "GET / HTTP/1.1" 200 -
+2025-12-16 12:49:03,189 127.0.0.1 - - [16/Dec/2025 12:49:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-16 12:49:03,193 127.0.0.1 - - [16/Dec/2025 12:49:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 12:49:03,294 127.0.0.1 - - [16/Dec/2025 12:49:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-16 12:49:03,308 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":18,"source-file":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 12:49:03,309 127.0.0.1 - - [16/Dec/2025 12:49:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 12:49:03,444 127.0.0.1 - - [16/Dec/2025 12:49:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 12:49:03,500 127.0.0.1 - - [16/Dec/2025 12:49:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 12:49:03,543 127.0.0.1 - - [16/Dec/2025 12:49:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 12:49:03,596 {"csp-report":{"document-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/","referrer":"https://literate-capybara-g99v7q4j9p93wpr9.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://literate-capybara-g99v7q4j9p93wpr9-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 12:49:03,596 127.0.0.1 - - [16/Dec/2025 12:49:03] "POST /csp_report HTTP/1.1" 200 -
