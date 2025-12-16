@@ -56,16 +56,19 @@ def signupinput(user, pwd):
         return False
 
 
-def devlogadd(developer, project, start, end, diarytime, worktime, repo, notes):
-    connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
-    cursor = connection.cursor()
-    cursor.execute(
-        "INSERT INTO developer_logs (developer_name, project_name,start_time, end_time, diary_time_spent, working_time_spent, repo_info, project_notes) VALUES (?,?,?,?,?,?,?,?)",
-        (developer, project, start, end, diarytime, worktime, repo, notes),
-    )
-    connection.commit()
-    connection.close()
-    return True
+def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, notes):
+    try:
+        connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
+        cursor = connection.cursor()
+        cursor.execute(
+            "INSERT INTO developer_logs (dev_id, developer_name, project_name,start_time, end_time, diary_time_spent, working_time_spent, repo_info, project_notes) VALUES (?,?,?,?,?,?,?,?,?)",
+            (user, developer, project, start, end, diarytime, worktime, repo, notes),
+        )
+        connection.commit()
+        connection.close()
+        return True
+    except sql.IntegrityError:
+        return False
 
 
 # TEST CODE FOR THE INPUT SYSTEM - NO HASHING NO INPUT VALIDATION WE DIE LIKE

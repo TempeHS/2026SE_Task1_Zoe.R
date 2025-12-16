@@ -71,13 +71,15 @@ def privacy():
 @app.route("/form_login.html", methods=["POST", "GET"])
 def login():
     if request.method == "POST":
+        global user
         user = request.form.get("user", "").strip()
         pwd = request.form.get("password", "")
         if dbHandler.loginput(user, pwd):
             session["login"] = True
             session["user"] = user
             return redirect("/index.html")
-        return render_template("/form_login.html")
+        else:
+            return render_template("/form_login.html")
     else:
         return render_template(
             "/form_login.html", error="Username or password is incorrect"
@@ -109,23 +111,26 @@ def signup():
 @app.route("/form_devlog.html", methods=["POST", "GET"])
 def cosup():
     if request.method == "POST":
-        developer = request.form.get("developer", "").strip()
-        project = request.form.get("project", "").strip()
-        start = request.form.get("start", "").strip()
-        end = request.form.get("end", "").strip()
-        diarytime = request.form.get("diarytime", "").strip()
-        worktime = request.form.get("worktime", "").strip()
-        repo = request.form.get("repo", "").strip()
-        notes = request.form.get("notes", "").strip()
-        if dbHandler.devlogadd(
-            developer, project, start, end, diarytime, worktime, repo, notes
-        ):
-            return redirect("/devlogs.html")
-        else:
-            return render_template(
-                "/form_devlog.html",
-                error="Unable to add devlog. This was likely due to an error on our end.",
-            )
+        try:
+            developer = request.form.get("developer", "").strip()
+            project = request.form.get("project", "").strip()
+            start = request.form.get("start", "").strip()
+            end = request.form.get("end", "").strip()
+            diarytime = request.form.get("diarytime", "").strip()
+            worktime = request.form.get("worktime", "").strip()
+            repo = request.form.get("repo", "").strip()
+            notes = request.form.get("notes", "").strip()
+            if dbHandler.devlogadd(
+                user, developer, project, start, end, diarytime, worktime, repo, notes
+            ):
+                return redirect("/devlogs.html")
+            else:
+                return render_template(
+                    "/form_devlog.html",
+                    error="Unable to add devlog. Either you haven't submitted everything or this was an error on our end.",
+                )
+        except NameError:
+            return render_template("/form_devlog.html")
     else:
         return render_template("/form_devlog.html")
 
