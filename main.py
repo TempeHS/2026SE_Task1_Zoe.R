@@ -135,14 +135,14 @@ def signup():
 def cosup():
     if request.method == "POST":
         try:
-            developer = request.form.get("developer", "").strip()
-            project = request.form.get("project", "").strip()
-            start = request.form.get("start", "").strip()
-            end = request.form.get("end", "").strip()
-            diarytime = request.form.get("diarytime", "").strip()
-            worktime = request.form.get("worktime", "").strip()
-            repo = request.form.get("repo", "").strip()
-            notes = request.form.get("notes", "").strip()
+            developer = request.form.get("developer").strip()
+            project = request.form.get("project").strip()
+            start = request.form.get("start").strip()
+            end = request.form.get("end").strip()
+            diarytime = request.form.get("diarytime").strip()
+            worktime = request.form.get("worktime").strip()
+            repo = request.form.get("repo").strip()
+            notes = request.form.get("notes").strip()
             if not session.get("login") or not session.get("user"):
                 print("not logged inn")
                 return render_template("/form_devlog.html")
@@ -158,10 +158,9 @@ def cosup():
                     "/form_devlog.html",
                 )
         except NameError:
-            print("bleghhhh :P")
+            print("bleghhhh :P (not logged in)")
             return render_template("/form_devlog.html")
     else:
-        print("blehhh :P")
         return render_template("/form_devlog.html")
 
 

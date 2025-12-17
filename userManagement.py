@@ -42,6 +42,7 @@ def signupinput(user, pwd):
     try:
         if user == "":
             user = None
+            return False
         if pwd == "":
             pwd = None
             return False
@@ -65,6 +66,7 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         if user == "":
             user = None
         if developer == "":
+            print("changed")
             developer = None
         if project == "":
             project = None
@@ -90,6 +92,7 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         connection.close()
         return True
     except sql.IntegrityError:
+        print("uhhhhhhhhwhath")
         return False
 
 
