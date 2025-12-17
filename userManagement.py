@@ -68,7 +68,7 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         if user == "":
             user = None
         if developer == "":
-            print("changed")
+            print("removed empty strings")
             developer = None
         if project == "":
             project = None
@@ -94,7 +94,7 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         connection.close()
         return True
     except sql.IntegrityError:
-        print("uhhhhhhhhwhath")
+        print("uhhhhhhhh")
         return False
 
 
