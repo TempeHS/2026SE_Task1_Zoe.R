@@ -100,9 +100,9 @@ def login():
             # CODE FOR UNFINISHED 2FA
             # return redirect("/2_factor_auth.html")
         else:
+            print("Username or password is incorrect.")
             return render_template("/form_login.html")
     else:
-        print("Username or password is incorrect.")
         return render_template("/form_login.html")
 
 
