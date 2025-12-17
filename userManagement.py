@@ -6,8 +6,10 @@ import bcrypt
 def getdata():
     connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
     cursor = connection.cursor()
+    cursor.execute("SELECT * FROM developer_logs")
+    devlogs = cursor.fetchall()
     connection.close()
-    return cursor
+    return devlogs
 
 
 # OLD code for creating the devlog table
@@ -96,18 +98,17 @@ def devlogadd(user, developer, project, start, end, diarytime, worktime, repo, n
         return False
 
 
-def devlogsearch(searchlog):
+def devlogsearch(searchdata):
     try:
-        print(searchlog)
+        print(searchdata)
         connection = sql.connect("databaseFiles/database.db", check_same_thread=False)
         cursor = connection.cursor()
         cursor.execute(
-            "SELECT * FROM developer_logs WHERE developer_name = ?", (searchlog,)
+            "SELECT * FROM developer_logs WHERE developer_name = ?", (searchdata,)
         )
         logs = cursor.fetchall()
         connection.close()
-        print(logs)
-        return True
+        return logs
     except sql.IntegrityError:
         return False
 

@@ -23,22 +23,18 @@ button to work)
           placeholder="Search"
           aria-label="Search"
         />
-        <!-- <div class="btn-group">
-  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Small button
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Username</a></li>
-    <li><a class="dropdown-item" href="#">Developer</a></li>
-    <li><a class="dropdown-item" href="#">Project</a></li>
-    <li><a class="dropdown-item" href="#">Start Time</a></li>
-    <li><a class="dropdown-item" href="#">End Time</a></li>
-    <li><a class="dropdown-item" href="#">Log Time</a></li>
-    <li><a class="dropdown-item" href="#">Time Spent</a></li>
-    <li><a class="dropdown-item" href="#">Repository</a></li>
-    <li><a class="dropdown-item" href="#">Notes</a></li>
-  </ul>
-</div> -->
+        <div class="btn-group">
+  
+  <!--<form action="/devlogs.html" method="POST"><label for="search"></label>
+  <select name="search_option">
+    <option value="username">Username</option>
+    <option value="developer">Developer</option>
+    <option value="project">Project</option>
+    <option value="repo">Repository</option>
+    <option value="notes">Notes</option>
+  </select>
+  </form>-->
+</div>
         <button class="btn btn-outline-success" type="submit">Search</button>
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
@@ -46,8 +42,9 @@ button to work)
     </div>
     <div class="col-8">
       <h2>Devlogs</h2>
-      <br />
-      <table>
+    {% if devlogs %}
+    <div class="table-responsive">
+    <table>
     <thead>
         <tr>
             <th>Username</th>
@@ -62,19 +59,23 @@ button to work)
         </tr>
     </thead>
     <tbody>
+      {% for entry in devlogs %}
         <tr>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
-            <td>[]</td>
+            <td>{{ log[0] }}</td>
+            <td>{{ log[1] }}</td>
+            <td>{{ log[2] }}</td>
+            <td>{{ log[3] }}</td>
+            <td>{{ log[4] }}</td>
+            <td>{{ log[5] }}</td>
+            <td>{{ log[6] }}</td>
+            <td>{{ log[7] }}</td>
+            <td>{{ log[8] }}</td>
         </tr>
+        {% endfor %}
     </tbody>
-</table>
+  </table>
+</div>
+{% endif %}
     </div>
   </div>
 </div>

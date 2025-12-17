@@ -97,6 +97,8 @@ def login():
             session["login"] = True
             session["user"] = user
             return redirect("/index.html")
+            # CODE FOR UNFINISHED 2FA
+            # return redirect("/2_factor_auth.html")
         else:
             return render_template("/form_login.html")
     else:
@@ -166,10 +168,14 @@ def cosup():
 
 @app.route("/devlogs.html", methods=["POST", "GET"])
 def tanup():
-    print("searching")
+    devlogs = dbHandler.getdata()
     if request.method == "POST":
-        searchlog = request.form.get("devlog_search", "").strip()
-        if dbHandler.devlogsearch(searchlog):
+        searchdata = request.form.get("devlog_search", "").strip()
+        # searchlog = request.form.get("search_option")
+        # print(searchlog)
+        logs = dbHandler.devlogsearch(searchdata)
+        if logs:
+            print(logs)
             print("search success")
             return render_template("/devlogs.html")
         else:
@@ -191,11 +197,12 @@ def tanup():
 #    if request.method == "POST":
 #        otp_input = request.form["otp"]
 #    if totp.verify(otp_input):
-#        return render_template("some_page.html")
-#        # return redirect(url_for('home'))  # Redirect to home if OTP is valid
+#        session["login"] = True
+#        session["user"] = user
+#        return redirect("index.html")
 #    else:
-#        return "Invalid OTP. Please try again.", 401
-#    return render_template("/index.html")
+#        return render_
+#    return render_template("/login.html")
 
 
 # Endpoint for logging CSP violations
